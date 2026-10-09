@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="620" viewBox="0 0 880 620" font-family="ui-sans-serif, -apple-system, 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">30 块能吃什么：真实对话示例</title>
+<desc id="d">用户在WorkBuddy 中询问 30 块预算，技能返回官方算价结果，推荐龙焰芝士棒鸡腿堡三件套，实付 29.9 元。</desc>
+
+<rect width="880" height="620" fill="#0E1116"/>
+
+<!-- 标题区 -->
+<text x="40" y="46" fill="#E6EDF3" font-size="20" font-weight="600">30 块能吃什么</text>
+<text x="40" y="70" fill="#7D8590" font-size="13">基于麦当劳 MCP 的预算内最优解· 真实运行结果</text>
+
+<!-- 用户气泡 -->
+<rect x="40" y="100" width="180" height="38" rx="10" fill="#1F6FEB" opacity="0.16"/>
+<text x="60" y="124" fill="#79B8FF" font-size="14">30 块能吃什么</text>
+
+<!-- 助手处理中 -->
+<rect x="40" y="156" width="600" height="26" rx="8" fill="#161B22"/>
+<text x="58" y="174" fill="#8B949E" font-size="12.5">定位有券门店 · 拉取在售菜单 · 24 组官方试算</text>
+<circle cx="620" cy="169" r="4" fill="#3FB950"/>
+<text x="634" y="174" fill="#3FB950" font-size="12">8.6s</text>
+
+<!-- 结果卡 -->
+<rect x="40" y="200" width="800" height="248" rx="14" fill="#161B22" stroke="#30363D"/>
+<rect x="40" y="200" width="4" height="248" rx="2" fill="#D4A72C"/>
+
+<text x="66" y="236" fill="#D4A72C" font-size="13" font-weight="600">今日战绩</text>
+<text x="152" y="236" fill="#7D8590" font-size="13">30 块预算</text>
+
+<text x="66" y="284" fill="#E6EDF3" font-size="34" font-weight="700">29.9</text>
+<text x="152" y="284" fill="#7D8590" font-size="17">元</text>
+<text x="196" y="284" fill="#7D8590" font-size="14">实付</text>
+
+<line x1="66" y1="304" x2="816" y2="304" stroke="#21262D"/>
+
+<text x="66" y="334" fill="#7D8590" font-size="13">吃到</text>
+<text x="112" y="334" fill="#E6EDF3" font-size="14.5">龙焰芝士棒鸡腿堡三件套</text>
+<text x="66" y="360" fill="#7D8590" font-size="13">门店</text>
+<text x="112" y="360" fill="#C9D1D9" font-size="13.5">广州艺苑路创意园餐厅</text>
+<text x="66" y="386" fill="#7D8590" font-size="13">用券</text>
+<text x="112" y="386" fill="#C9D1D9" font-size="13.5">9.9元中杯冰美式</text>
+<text x="66" y="412" fill="#7D8590" font-size="13">对照</text>
+<text x="112" y="412" fill="#C9D1D9" font-size="13.5">不用券 39.0 元，省 9.1 元</text>
+
+<!-- 对比说明 -->
+<rect x="40" y="466" width="392" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
+<text x="62" y="494" fill="#F85149" font-size="13" font-weight="600">常见做法</text>
+<text x="62" y="520" fill="#7D8590" font-size="13">查菜单 → 让模型挑几样 → 报个价</text>
+<text x="62" y="546" fill="#7D8590" font-size="13">本质是把工具结果转述一遍</text>
+
+<rect x="448" y="466" width="392" height="112" rx="12" fill="#161B22" stroke="#1F6FEB" stroke-opacity="0.5"/>
+<text x="470" y="494" fill="#79B8FF" font-size="13" font-weight="600">本项目</text>
+<text x="470" y="520" fill="#7D8590" font-size="13">穷举组合 + 官方试算 + 效用排序</text>
+<text x="470" y="546" fill="#7D8590" font-size="13">目标函数是「吃到多少」而非「花最少」</text>
+
+<text x="40" y="604" fill="#484F58" font-size="11.5">数据来自 calculate-price 官方试算，餐品与价格以麦当劳官方渠道实时结果为准 · 非官方产品</text>
+</svg>
